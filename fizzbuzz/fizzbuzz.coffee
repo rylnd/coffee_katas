@@ -1,8 +1,8 @@
 class FizzBuzz
-  @run: (count = 100) ->
-   console.log @fizz(x) for x in [1..count]
+  @count: (count = 100) ->
+    @rule_for(x) for x in [1..count]
 
-  @fizz: (num) ->
+  @rule_for: (num) ->
     if num % 15 == 0
       'fizzbuzz'
     else if num % 3 == 0
@@ -11,4 +11,4 @@ class FizzBuzz
       'buzz'
     else num
 
-FizzBuzz.run()
+console.log FizzBuzz.count()
