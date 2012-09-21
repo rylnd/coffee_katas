@@ -5,10 +5,10 @@ class FizzBuzz
   @fizz: (num) ->
     if num % 15 == 0
       'fizzbuzz'
-    else if num % 5 == 0
-      'buzz'
     else if num % 3 == 0
       'fizz'
+    else if num % 5 == 0
+      'buzz'
     else num
 
 FizzBuzz.run()
