@@ -19,3 +19,6 @@ describe 'FizzBuzz', ->
 
     it "returns 'fizzbuzz' for multiples of both 3 and 5", ->
       expect(FizzBuzz.count()[num-1]).toBe('fizzbuzz') for num in [15,30,45]
+
+    it 'returns the number otherwise', ->
+      expect(FizzBuzz.count()[num-1]).toBe(num) for num in [1,2,4,7]
