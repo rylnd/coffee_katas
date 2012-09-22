@@ -1,4 +1,4 @@
-class FizzBuzz
+class window.FizzBuzz
   @count: (count = 100) ->
     @rule_for(x) for x in [1..count]
 
@@ -10,5 +10,3 @@ class FizzBuzz
     else if num % 5 == 0
       'buzz'
     else num
-
-console.log FizzBuzz.count()
