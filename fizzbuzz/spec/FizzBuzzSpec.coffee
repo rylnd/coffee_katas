@@ -10,3 +10,6 @@ describe 'FizzBuzz', ->
 
     it 'defaults to 100', ->
       expect(FizzBuzz.count().length).toBe 100
+
+    it "returns 'fizz' for multiples of 3", ->
+      expect(FizzBuzz.count()[num-1]).toBe('fizz') for num in [3,6,9,12]
