@@ -5,8 +5,7 @@ describe 'FizzBuzz', ->
       expect(FizzBuzz.count().constructor) instanceof Array
 
     it 'is the correct size', ->
-      expect(FizzBuzz.count(1).length).toBe 1
-      expect(FizzBuzz.count(3).length).toBe 3
+      expect(FizzBuzz.count(num).length).toBe(num) for num in [1..10]
 
     it 'defaults to 100', ->
       expect(FizzBuzz.count().length).toBe 100
