@@ -5,7 +5,7 @@ Y = (func) ->
 
   )(
     (x) ->
-      func (v) -> x(x)(v) 
+      func (v) -> x(x)(v)
   )
 
 window.Y = Y
