@@ -6,4 +6,5 @@ Y = (func) ->
       func (z) -> y(y)(z)
   )
 
-window.Y = Y
+root = exports ? window
+root.Y = Y

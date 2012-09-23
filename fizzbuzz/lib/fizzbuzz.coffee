@@ -11,4 +11,5 @@ class FizzBuzz
       'buzz'
     else num
 
-window.FizzBuzz = FizzBuzz
+root = exports ? window
+root.FizzBuzz = FizzBuzz

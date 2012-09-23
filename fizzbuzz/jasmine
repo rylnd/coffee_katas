@@ -1,9 +1,0 @@
-#!/usr/bin/env bash
-
-# compile specs
-coffee -co spec/spec $(find ./spec/ -iname '*.coffee')
-
-# compile source
-coffee -co spec/src $(find ./lib -iname '*.coffee')
-
-open spec/SpecRunner.html
