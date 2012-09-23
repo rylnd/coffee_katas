@@ -1,8 +1,6 @@
 Y = (func) ->
   (
-    (x) ->
-      func (v) -> x(x)(v)
-
+    (x) -> x(x)
   )(
     (x) ->
       func (v) -> x(x)(v)
