@@ -3,8 +3,4 @@
 args=${@:-'.'}
 jasmine="$(find . -type f -name jasmine-node) --coffee --verbose"
 
-specs=$(find $args -name 'node*' -prune -o -type d -name spec -print)
-
-for spec in $specs; do
-  $jasmine $spec
-done
+$jasmine $args
