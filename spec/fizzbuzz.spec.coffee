@@ -1,5 +1,3 @@
-FizzBuzz = require('../lib/fizzbuzz.coffee').FizzBuzz
-
 describe 'FizzBuzz', ->
   describe '.count', ->
     its = null

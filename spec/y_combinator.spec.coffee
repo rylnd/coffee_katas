@@ -1,5 +1,3 @@
-Y = require('../lib/y_combinator.coffee').Y
-
 describe 'Y', ->
   describe 'factorial', ->
     factorial = null
