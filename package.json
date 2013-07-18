@@ -1,7 +1,0 @@
-{
-  "name": "coffee_katas",
-  "version": "0.0.1",
-  "dependencies":{
-    "jasmine-node": ">=1.0"
-  }
-}
