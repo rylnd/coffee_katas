@@ -1,6 +1,0 @@
-#!/usr/bin/env bash
-
-args=${@:-'.'}
-jasmine="$(find . -type f -name jasmine-node) --coffee --verbose"
-
-$jasmine $args
