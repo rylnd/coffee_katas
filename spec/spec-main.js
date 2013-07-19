@@ -1,6 +1,6 @@
 var files = Object.keys(window.__karma__.files),
     specs = files.filter(function(file) {
-      return /spec.*coffee.*\.js$/.test(file)
+      return /spec.*compiled.*\.js$/.test(file)
     });
 
 requirejs.config({
